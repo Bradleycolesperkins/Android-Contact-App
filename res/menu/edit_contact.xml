@@ -1,0 +1,6 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item android:id="@+id/ConfirmEditButton" android:title="@string/ConfirmEditContactString" android:showAsAction="always"></item>
+   <item android:id="@+id/CancelEditButton" android:title="@string/CancelEditContactString" android:showAsAction="always"></item>
+    
+</menu>

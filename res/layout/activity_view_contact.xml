@@ -1,0 +1,211 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".ViewContactActivity" >
+
+     <TextView
+        android:id="@+id/NameTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="26dp"
+        android:text="@string/contact_name_title"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/numberTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/NameTitle"
+        android:layout_below="@+id/NameTitle"
+        android:layout_marginTop="15dp"
+        android:text="@string/contact_mobile_number_title"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/emailTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/numberTitle"
+        android:layout_below="@+id/numberTitle"
+        android:layout_marginTop="15dp"
+        android:text="@string/contact_email_address_title"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/addressOneTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/emailTitle"
+        android:layout_below="@+id/emailTitle"
+        android:layout_marginTop="15dp"
+        android:text="@string/contact_address_line_one_title"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/addressTwoTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/addressOneTitle"
+        android:layout_below="@+id/addressOneTitle"
+        android:layout_marginTop="15dp"
+        android:text="@string/contact_address_line_two_title"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/countyTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/addressTwoTitle"
+        android:layout_below="@+id/addressTwoTitle"
+        android:layout_marginTop="16dp"
+        android:text="@string/contact_address_county_title"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/postcodeTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/countyTitle"
+        android:layout_below="@+id/countyTitle"
+        android:layout_marginTop="16dp"
+        android:text="@string/contact_address_postcode_title"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/dobTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/postcodeTitle"
+        android:layout_below="@+id/postcodeTitle"
+        android:layout_marginTop="16dp"
+        android:text="@string/contact_DOB_title"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/viewnumberTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/viewNameTitle"
+        android:layout_below="@+id/viewNameTitle"
+        android:layout_marginTop="15dp"
+        android:text="@string/view_mobile_number_title"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/viewemailTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/viewnumberTitle"
+        android:layout_below="@+id/viewnumberTitle"
+        android:layout_marginTop="15dp"
+        android:text="@string/view_email_address_title"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/viewaddressOneTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/viewemailTitle"
+        android:layout_below="@+id/viewemailTitle"
+        android:layout_marginTop="15dp"
+        android:text="@string/view_address_line_one_title"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/viewaddressTwoTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/viewaddressOneTitle"
+        android:layout_below="@+id/viewaddressOneTitle"
+        android:layout_marginTop="15dp"
+        android:text="@string/view_address_line_two_title"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/viewcountyTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/viewaddressTwoTitle"
+        android:layout_below="@+id/viewaddressTwoTitle"
+        android:layout_marginTop="16dp"
+        android:text="@string/view_address_county_title"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/viewpostcodeTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/viewcountyTitle"
+        android:layout_below="@+id/viewcountyTitle"
+        android:layout_marginTop="16dp"
+        android:text="@string/view_address_postcode_title"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/viewdobTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/viewpostcodeTitle"
+        android:layout_below="@+id/viewpostcodeTitle"
+        android:layout_marginTop="16dp"
+        android:text="@string/view_DOB_title"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/viewNameTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/NameTitle"
+        android:layout_alignBottom="@+id/NameTitle"
+        android:layout_marginLeft="34dp"
+        android:layout_toRightOf="@+id/numberTitle"
+        android:text="@string/view_name_title"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/extraViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/ageTitle"
+        android:layout_below="@+id/ageTitle"
+        android:layout_marginTop="18dp"
+        android:text="@string/contact_extra_title"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/ageTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/dobTitle"
+        android:layout_below="@+id/dobTitle"
+        android:layout_marginTop="16dp"
+        android:text="@string/view_age_title"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/viewAgeTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/extraViewTitle"
+        android:layout_alignLeft="@+id/viewdobTitle"
+        android:text="@string/ageTitle"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/viewExtraTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/extraViewTitle"
+        android:layout_alignBottom="@+id/extraViewTitle"
+        android:layout_alignLeft="@+id/viewAgeTitle"
+        android:text="@string/extraTitle"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</RelativeLayout>

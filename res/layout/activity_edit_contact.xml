@@ -1,0 +1,211 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".EditContactActivity" >
+
+   <TextView
+        android:id="@+id/NameTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="26dp"
+        android:text="@string/contact_name_title"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/numberTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/NameTitle"
+        android:layout_below="@+id/NameTitle"
+        android:layout_marginTop="15dp"
+        android:text="@string/contact_mobile_number_title"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/emailTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/numberTitle"
+        android:layout_below="@+id/numberTitle"
+        android:layout_marginTop="15dp"
+        android:text="@string/contact_email_address_title"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/addressOneTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/emailTitle"
+        android:layout_below="@+id/emailTitle"
+        android:layout_marginTop="15dp"
+        android:text="@string/contact_address_line_one_title"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/addressTwoTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/addressOneTitle"
+        android:layout_below="@+id/addressOneTitle"
+        android:layout_marginTop="15dp"
+        android:text="@string/contact_address_line_two_title"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/countyTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/addressTwoTitle"
+        android:layout_below="@+id/addressTwoTitle"
+        android:layout_marginTop="16dp"
+        android:text="@string/contact_address_county_title"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/postcodeTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/countyTitle"
+        android:layout_below="@+id/countyTitle"
+        android:layout_marginTop="16dp"
+        android:text="@string/contact_address_postcode_title"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/dobTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/postcodeTitle"
+        android:layout_below="@+id/postcodeTitle"
+        android:layout_marginTop="16dp"
+        android:text="@string/contact_DOB_title"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/editNameTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/NameTitle"
+        android:layout_alignBottom="@+id/NameTitle"
+        android:layout_toRightOf="@+id/numberTitle"
+        android:ems="10"
+        android:text="@string/edit_name_title"
+        android:inputType= "text"
+        android:textAppearance="?android:attr/textAppearanceMedium" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/editemailTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/numberTitle"
+        android:layout_alignBottom="@+id/numberTitle"
+        android:layout_alignLeft="@+id/editNameTitle"
+        android:ems="10"
+        android:text="@string/edit_mobile_number_title"
+        android:inputType= "textEmailAddress"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/editaddressOneTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/addressOneTitle"
+        android:layout_alignBottom="@+id/addressOneTitle"
+        android:layout_alignLeft="@+id/editemailTitle"
+        android:ems="10"
+        android:text="@string/edit_address_line_one_title"
+        android:inputType= "text"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/editaddressTwoTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/addressTwoTitle"
+        android:layout_alignBottom="@+id/addressTwoTitle"
+        android:layout_alignLeft="@+id/editaddressOneTitle"
+        android:ems="10"
+        android:text="@string/edit_address_line_two_title"
+        android:inputType= "text"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/editcountyTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/countyTitle"
+        android:layout_alignBottom="@+id/countyTitle"
+        android:layout_alignLeft="@+id/editaddressTwoTitle"
+        android:ems="10"
+        android:text="@string/edit_address_county_title"
+        android:inputType= "text"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/editpostcodeTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/postcodeTitle"
+        android:layout_alignBottom="@+id/postcodeTitle"
+        android:layout_alignLeft="@+id/editcountyTitle"
+        android:ems="10"
+        android:text="@string/view_address_postcode_title"
+        android:inputType= "text"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/editdobTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/dobTitle"
+        android:layout_alignBottom="@+id/dobTitle"
+        android:layout_alignLeft="@+id/editpostcodeTitle"
+        android:ems="10"
+        android:text="@string/edit_DOB_title"
+        android:inputType= "date"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/editnumberTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/emailTitle"
+        android:layout_alignBottom="@+id/emailTitle"
+        android:layout_alignLeft="@+id/editemailTitle"
+        android:ems="10"
+        android:text="@string/edit_email_address_title"
+        android:inputType= "phone"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/extraTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/dobTitle"
+        android:layout_below="@+id/editdobTitle"
+        android:layout_marginTop="16dp"
+        android:text="@string/contact_extra_title"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/editextraTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/extraTitle"
+        android:layout_alignBottom="@+id/extraTitle"
+        android:layout_alignLeft="@+id/editdobTitle"
+        android:text="@string/extraTitle"
+        android:inputType= "text"
+        android:ems="10" />
+
+</RelativeLayout>

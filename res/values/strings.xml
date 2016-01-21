@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PhoneBook</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_add_users">AddUsersActivity</string>
+    <string name="AddContactString">Add</string>
+    <string name="ConfirmContactString">Confirm</string>
+    <string name="CancelContactString">Cancel</string>
+    <string name="ConfirmEditContactString">Confirm</string>
+    <string name="CancelEditContactString">Cancel</string>
+    <string name="contact_name_title">Name :</string>
+    <string name="contact_mobile_number_title">Mobile number :</string>
+    <string name="contact_email_address_title">Email address :</string>
+    <string name="contact_address_line_one_title">Address Line 1 :</string>
+    <string name="contact_address_line_two_title">Address Line 2 :</string>
+    <string name="contact_address_county_title">County :</string>
+    <string name="contact_address_postcode_title">Postcode :</string>
+    <string name="contact_DOB_title">Date of birth :</string>
+    <string name="contact_age_title">Age :</string>
+    <string name="contact_extra_title">Extra info :</string>
+    <string name="age_format">DD/MM/YYYY</string>
+    <string name="view_name_title">Name</string>
+    <string name="view_mobile_number_title">Mobile number</string>
+    <string name="view_email_address_title">Email address</string>
+    <string name="view_address_line_one_title">Address Line 1</string>
+    <string name="view_address_line_two_title">Address Line 2</string>
+    <string name="view_address_county_title">County</string>
+    <string name="view_address_postcode_title">Postcode</string>
+    <string name="view_DOB_title">Date of birth</string>
+    <string name="ageTitle">Age Of User</string>
+    <string name="extraTitle">Extra Info</string>
+    <string name="view_age_title">Age :</string>
+    <string name="view_last_edited_title">Last Edited :</string>
+    <string name="edit_name_title">Name</string>
+    <string name="edit_mobile_number_title">Mobile number</string>
+    <string name="edit_email_address_title">Email address</string>
+    <string name="edit_address_line_one_title">Address Line 1</string>
+    <string name="edit_address_line_two_title">Address Line 2</string>
+    <string name="edit_address_county_title">County</string>
+    <string name="edit_address_postcode_title">Postcode</string>
+    <string name="edit_DOB_title">Date of birth</string>
+    <string name="edit_age_title">Age</string>
+    <string name="title_activity_add_user">AddUser</string>
+    <string name="title_activity_view_contact">ViewContactActivity</string>
+    <string name="editContactString">Edit</string>
+    <string name="deleteContactString">Delete</string>
+    <string name="title_activity_edit_contact">EditContactActivity</string>
+    <string name="xmlTemplateName">TemplateName</string>
+    <string name="xmlTemplateNumber">TemplateNumber</string>
+
+</resources>

@@ -1,0 +1,5 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/editContactButton" android:title="@string/editContactString" android:showAsAction="always"></item>
+    <item android:id="@+id/deleteContactButton" android:title="@string/deleteContactString" android:showAsAction="always"></item>
+
+</menu>
